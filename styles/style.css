@@ -206,6 +206,52 @@ body {
   font-weight: 500;
 }
 
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 67%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.card:hover::after {
+  font-family: FontAwesome;
+  content: "\f144 \A Watch Now";
+  position: absolute;
+  margin-top: 10px;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  z-index: 2;
+  white-space: pre;
+}
+
+
 /* play games online section style */
 .paly-games-online-container {
   display: flex;
