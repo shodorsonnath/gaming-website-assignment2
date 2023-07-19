@@ -175,7 +175,7 @@ body {
 }
 
 /* online games section styles */
-.onnline-game-description-container {
+.online-game-description-container {
   margin-top: 100px;
   text-align: center;
 
@@ -203,25 +203,53 @@ body {
 }
 
 /* play games online section style */
-.paly-games-online-container{
+.paly-games-online-container {
   display: flex;
   justify-content: center;
   gap: 150px;
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
-.play-games-online-img-container img{
+.play-games-online-img-container img {
   width: 500px;
 }
 
-.paly-games-online-container .play-game-online-description-container{
+.paly-games-online-container .play-game-online-description-container {
   margin-top: 70px;
 }
 
-.image-overlaping img{
+.image-overlaping img {
   position: relative;
   width: 250px;
   bottom: 200px;
   left: 320px;
+}
+
+/* sponsor logo  container design */
+.sponsor-logo {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.sponsor-log-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loge-text {
+  flex: 0 0 calc(20% - 10px);
+  max-width: calc(20% - 10px);
+  margin: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loge-text p {
+  color: #0B0223;
+  font-size: 1.1rem;
+  font-weight: 600;
 }

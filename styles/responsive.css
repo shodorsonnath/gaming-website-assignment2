@@ -2,6 +2,7 @@
 /* for mobile device */
 @media screen and (max-width: 576px) {
 
+    /* design for nav */
     .nav-container {
         flex-direction: column;
         box-shadow: none;
@@ -17,6 +18,7 @@
         align-items: center;
     }
 
+    /* design for banner */
     .banner-container {
         flex-direction: column-reverse;
         gap: 50px;
@@ -40,7 +42,8 @@
         font-size: 1rem;
     }
 
-    .onnline-game-description-container {
+    /* design for online game part */
+    .online-game-description-container {
         flex-direction: column;
         padding: 0 20px;
     }
@@ -68,37 +71,52 @@
         text-align: center;
     }
 
+    /* design game for play game */
     .paly-games-online-container {
         flex-direction: column-reverse;
         gap: 30px;
         align-items: center;
-      }
+    }
 
-      .paly-games-online-container .play-game-online-description-container {
+    .paly-games-online-container .play-game-online-description-container {
         text-align: center;
         margin-top: 0;
-      }
+    }
 
-      .paly-games-online-container .play-game-online-description-container .setion-description{
+    .paly-games-online-container .play-game-online-description-container .setion-description {
         text-align: center;
         font-size: 0.8rem;
         margin-bottom: 0;
-      }
+    }
 
-      .play-games-online-img-container img {
+    .play-games-online-img-container img {
         width: 100%;
         max-width: 260px;
-      }
-    
-      .image-overlaping img {
+    }
+
+    .image-overlaping img {
         position: relative;
         width: 130px;
         bottom: 130px;
         left: 170px;
         margin-top: 30px;
-      }
-    
-      
+    }
+
+    /* design for sponsor logo */
+    .loge-text {
+        flex: 0 0 calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+        gap: 5px;
+    }
+
+    .loge-text img {
+        width: 30%;
+    }
+
+    .loge-text p {
+        font-size: 0.8rem;
+    }
+
 
 
 
@@ -107,7 +125,7 @@
 
 /* for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-
+    /* for nav section */
     .nav-container {
         flex-direction: column;
         box-shadow: none;
@@ -122,7 +140,7 @@
         margin-right: 40px;
         align-items: center;
     }
-
+    /* for banner section */
     .banner-container {
         flex-direction: column-reverse;
         gap: 50px;
@@ -133,8 +151,8 @@
         height: auto;
         margin: 0 50px;
     }
-
-    .onnline-game-description-container {
+    /* for online game section part */
+    .online-game-description-container {
         flex-direction: column;
         padding: 0 20px;
     }
@@ -157,36 +175,50 @@
         height: auto;
         text-align: center;
     }
-
+    /* for play game part */
     .paly-games-online-container {
         flex-direction: column-reverse;
         gap: 40px;
         align-items: center;
-      }
+    }
 
-      .paly-games-online-container .play-game-online-description-container {
+    .paly-games-online-container .play-game-online-description-container {
         text-align: center;
         margin-top: 0;
-      }
+    }
 
-      .paly-games-online-container .play-game-online-description-container .setion-description{
+    .paly-games-online-container .play-game-online-description-container .setion-description {
         text-align: center;
         font-size: 1.1rem;
         margin-bottom: 0;
-      }
-      
-      .play-games-online-img-container img {
+    }
+
+    .play-games-online-img-container img {
         width: 100%;
         max-width: 400px;
-      }
-    
-      .image-overlaping img {
+    }
+
+    .image-overlaping img {
         position: relative;
         width: 150px;
         bottom: 150px;
         left: 300px;
         margin-top: 30px;
-      }
+    }
+    /* design for sponsor logo */
+    .loge-text {
+        flex: 0 0 calc(33.33% - 10px);
+        max-width: calc(33.33% - 10px);
+    }
+
+    .loge-text img {
+        width: 30%;
+    }
+
+    .loge-text p {
+        font-size: 1rem;
+    }
+
 
 
 }
