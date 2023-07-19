@@ -6,6 +6,7 @@
     .nav-container {
         flex-direction: column;
         box-shadow: none;
+        margin-bottom: 50px;
     }
 
     .nav-items-container {
@@ -16,6 +17,20 @@
         margin-bottom: 30px;
         margin-right: 40px;
         align-items: center;
+    }
+
+    .nav-social-icons a {
+        margin-right: -10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-social-icons {
+        align-items: center;
+        margin-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 0;
     }
 
     /* design for banner */
@@ -80,7 +95,7 @@
         height: 86%;
         border: 3px solid #f51f8d;
         background-color: rgba(0, 0, 0, 0.8);
-        z z-index: 1;
+        z-index: 1;
     }
 
     .card:hover::after {
@@ -101,9 +116,10 @@
     }
 
     /* design game for play game */
-    .play-games-online{
+    .play-games-online {
         margin-top: 0;
     }
+
     .paly-games-online-container {
         flex-direction: column-reverse;
         gap: 30px;
@@ -135,9 +151,10 @@
     }
 
     /* design for sponsor logo */
-    .sponsor-logo{
+    .sponsor-logo {
         margin: 0 40px 20px 50px;
     }
+
     .loge-text {
         flex: calc(33.33% - 10px);
         max-width: calc(33.33% - 10px);
@@ -210,6 +227,7 @@
     .nav-container {
         flex-direction: column;
         box-shadow: none;
+        margin-bottom: 50px;
     }
 
     .nav-items-container {
@@ -221,6 +239,22 @@
         margin-right: 40px;
         align-items: center;
     }
+
+    .nav-social-icons a {
+        margin-right: -10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-social-icons {
+        align-items: center;
+        margin-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+
 
     /* for banner section */
     .banner-container {
@@ -290,9 +324,10 @@
     }
 
     /* for play game part */
-    .play-games-online{
+    .play-games-online {
         margin-top: 0;
     }
+
     .paly-games-online-container {
         flex-direction: column-reverse;
         gap: 40px;
@@ -324,10 +359,11 @@
     }
 
     /* design for sponsor logo */
-    .sponsor-logo{
+    .sponsor-logo {
         margin: 0 60px 50px 60px;
         padding: 0 30px 0 30px;
     }
+
     .loge-text {
         flex: calc(33.33% - 10px);
         max-width: calc(33.33% - 10px);

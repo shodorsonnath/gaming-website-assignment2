@@ -78,26 +78,29 @@ body {
 }
 
 .nav-items-container a {
-  margin-left: 30px;
+  margin-left: 40px;
   text-decoration: none;
   color: #3C354F;
   font-size: 1.1rem;
   font-weight: 500;
 }
 
-.nav-btn {
-  border-radius: 8px;
-  border: none;
-  background: rgba(11, 2, 35, 0.10);
-  padding: 15px 24px;
+.nav-social-icons a{
+  margin-left: 15px;
+}
+
+.nav-social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  background-color: rgb(11, 2, 35, 0.10);
   color: #3C354F;
-  text-align: center;
+  border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  text-decoration: none;
+  padding: 16px 25px;
+  padding-left: 10px;
 }
 
 /* banner section styles */
@@ -257,7 +260,7 @@ body {
   justify-content: center;
   gap: 150px;
   margin-top: 50px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .play-games-online-img-container img {
