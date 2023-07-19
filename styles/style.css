@@ -25,6 +25,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.text-color-white {
+  color: #FFF;
+}
+
 .section-title {
   color: #0B0223;
   font-size: 2.5rem;
@@ -252,4 +256,64 @@ body {
   color: #0B0223;
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+/* footer section styles */
+.footer {
+  background: #0B0223;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.footer-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container img {
+  width: 80px;
+  height: 40px;
+}
+
+.footer-logo-container h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.footer-nav {
+  margin-bottom: 50px;
+
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+
+.footer-terns-and-condition-nav a {
+  margin-top: 50px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.copyright-text {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
 }
