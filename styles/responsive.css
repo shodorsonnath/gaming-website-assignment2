@@ -1,0 +1,192 @@
+/* responsive styles */
+/* for mobile device */
+@media screen and (max-width: 576px) {
+
+    .nav-container {
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container a {
+        margin-bottom: 30px;
+        margin-right: 40px;
+        align-items: center;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .image-banner {
+        width: 80%;
+        height: auto;
+        margin: 0 35px;
+    }
+
+    .banner-description p {
+        font-size: 2rem;
+    }
+
+    .banner-description h2 {
+        font-size: 3.5rem;
+    }
+
+    .banner-icon-text .banner-text-with-icon {
+        font-size: 1rem;
+    }
+
+    .onnline-game-description-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .setion-description {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-container .card img {
+        width: 300px;
+    }
+
+    .card-title {
+        max-width: 300px;
+        height: auto;
+        text-align: center;
+    }
+
+    .paly-games-online-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+        align-items: center;
+      }
+
+      .paly-games-online-container .play-game-online-description-container {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .paly-games-online-container .play-game-online-description-container .setion-description{
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 0;
+      }
+
+      .play-games-online-img-container img {
+        width: 100%;
+        max-width: 260px;
+      }
+    
+      .image-overlaping img {
+        position: relative;
+        width: 130px;
+        bottom: 130px;
+        left: 170px;
+        margin-top: 30px;
+      }
+    
+      
+
+
+
+}
+
+
+/* for tablet devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    .nav-container {
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container a {
+        margin-bottom: 30px;
+        margin-right: 40px;
+        align-items: center;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .image-banner {
+        width: 80%;
+        height: auto;
+        margin: 0 50px;
+    }
+
+    .onnline-game-description-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .setion-description {
+        margin-top: 20px;
+        font-size: 0.8rem;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card-container .card img {
+        width: 300px;
+    }
+
+    .card-title {
+        max-width: 300px;
+        height: auto;
+        text-align: center;
+    }
+
+    .paly-games-online-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        align-items: center;
+      }
+
+      .paly-games-online-container .play-game-online-description-container {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .paly-games-online-container .play-game-online-description-container .setion-description{
+        text-align: center;
+        font-size: 1.1rem;
+        margin-bottom: 0;
+      }
+      
+      .play-games-online-img-container img {
+        width: 100%;
+        max-width: 400px;
+      }
+    
+      .image-overlaping img {
+        position: relative;
+        width: 150px;
+        bottom: 150px;
+        left: 300px;
+        margin-top: 30px;
+      }
+
+
+}
