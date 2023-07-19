@@ -1,5 +1,5 @@
 /* responsive styles */
-/* for mobile device */
+/* for responsive mobile device */
 @media screen and (max-width: 576px) {
 
     /* design for nav */
@@ -167,7 +167,8 @@
 
 }
 
-/* for tablet devices */
+
+/* for responsive tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
     /* for nav section */
     .nav-container {
