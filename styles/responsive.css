@@ -117,11 +117,55 @@
         font-size: 0.8rem;
     }
 
+    /* design for footer part */
 
+    .footer-nav {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 20px;
+    }
 
+    .footer-logo-container {
+        margin-bottom: 10px;
+    }
+
+    .footer-nav a {
+        font-size: 0.9rem;
+        margin: 0 10px 0 0;
+
+    }
+
+    .footer-icon {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .footer-terns-and-condition-nav {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 10px;
+        row-gap: 10px;
+    }
+
+    .footer-terns-and-condition-nav a {
+        font-size: 0.9rem;
+        margin: 0 0 20px 35px;
+    }
+
+    .copyright-text {
+        font-size: 0.9rem;
+        margin: 0 30px;
+        padding: 0 30px;
+        margin-top: 40px;
+    }
 
 }
-
 
 /* for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -140,6 +184,7 @@
         margin-right: 40px;
         align-items: center;
     }
+
     /* for banner section */
     .banner-container {
         flex-direction: column-reverse;
@@ -151,6 +196,7 @@
         height: auto;
         margin: 0 50px;
     }
+
     /* for online game section part */
     .online-game-description-container {
         flex-direction: column;
@@ -175,6 +221,7 @@
         height: auto;
         text-align: center;
     }
+
     /* for play game part */
     .paly-games-online-container {
         flex-direction: column-reverse;
@@ -205,6 +252,7 @@
         left: 300px;
         margin-top: 30px;
     }
+
     /* design for sponsor logo */
     .loge-text {
         flex: 0 0 calc(33.33% - 10px);
@@ -219,6 +267,51 @@
         font-size: 1rem;
     }
 
+    /* desing for footer */
+    .footer-nav {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 0px;
+    }
 
+    .footer-logo-container {
+        margin-bottom: 10px;
+    }
+
+    .footer-nav a {
+        font-size: 1rem;
+        margin: 0 10px 0 0;
+
+    }
+
+    .footer-icon {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    .footer-terns-and-condition-nav {
+        grid-auto-flow: row;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 10px;
+        row-gap: 10px;
+    }
+
+    .footer-terns-and-condition-nav a {
+        font-size: 1rem;
+        margin: 0 0 20px 35px;
+    }
+
+    .copyright-text {
+        font-size: 0.9rem;
+        margin: 0 30px;
+        padding: 0 30px;
+        margin-top: 40px;
+    }
 
 }
