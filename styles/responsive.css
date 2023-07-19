@@ -70,6 +70,35 @@
         height: auto;
         text-align: center;
     }
+    .card:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 88%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+      }
+      .card:hover::after {
+        font-family: FontAwesome;
+        content: "\f144 \A Watch Now";
+        position: absolute;
+        margin-top: 100px;
+        text-align: center;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 20px;
+
+        z-index: 2;
+        white-space: pre;
+      }
 
     /* design game for play game */
     .paly-games-online-container {
@@ -222,6 +251,35 @@
         height: auto;
         text-align: center;
     }
+
+    .card:hover::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 88%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+      }
+
+      .card:hover::after {
+        font-family: FontAwesome;
+        content: "\f144 \A Watch Now";
+        position: absolute;
+        margin-top: 100px;
+        text-align: center;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        z-index: 2;
+        white-space: pre;
+      }
 
     /* for play game part */
     .paly-games-online-container {
