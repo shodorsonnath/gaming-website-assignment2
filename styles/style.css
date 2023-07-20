@@ -278,28 +278,20 @@ body {
   left: 320px;
 }
 
-/* sponsor logo  container design */
-.sponsor-logo {
+/* types of game section design */
+.types-of-game {
   margin-top: 0;
   margin-bottom: 100px;
 }
 
-.sponsor-log-container {
+.all-games-logo-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.loge-text:hover {
-  border-radius: 40px;
-  border: 1px solid #FF42A5;
-  background: #FFF;
-  color: #FF42A5;
-  cursor: pointer;
-}
-
-.loge-text {
-  flex: 0 0 calc(20% - 10px);
+.game-logo {
+  flex: calc(20% - 10px);
   max-width: calc(20% - 10px);
   margin: 5px;
   display: flex;
@@ -309,10 +301,20 @@ body {
   color: #0B0223;
 }
 
-.loge-text p {
+.game-logo p {
   font-size: 1.1rem;
   font-weight: 600;
 }
+
+.game-logo:hover {
+  border-radius: 40px;
+  border: 1px solid #FF42A5;
+  background: #FFF;
+  color: #FF42A5;
+  cursor: pointer;
+}
+
+
 
 /* footer section styles */
 .footer {
