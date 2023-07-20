@@ -110,7 +110,7 @@
         transform: translate(-50%, -50%);
         color: #fff;
         font-size: 10px;
-        font-weight: bold;
+        font-weight: 500;
         text-transform: uppercase;
         padding: 10px 20px;
         z-index: 2;
@@ -317,7 +317,7 @@
         transform: translate(-50%, -50%);
         color: #fff;
         font-size: 10px;
-        font-weight: bold;
+        font-weight: 500;
         text-transform: uppercase;
         padding: 10px 20px;
         z-index: 2;

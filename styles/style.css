@@ -212,7 +212,6 @@ body {
   cursor: pointer;
 }
 
-
 .card img {
   transition: transform 0.3s ease;
 }
@@ -245,10 +244,8 @@ body {
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 500;
   padding: 10px 20px;
-  border-radius: 20px;
   z-index: 2;
   white-space: pre;
 }
